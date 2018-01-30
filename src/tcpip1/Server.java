@@ -16,7 +16,6 @@ public class Server {
 		ServerSocket serverSocket = null;
 		Socket socket = null;
 		InputStream in = null;
-		
 		InputStreamReader inr = null;
 		BufferedReader br = null;
 

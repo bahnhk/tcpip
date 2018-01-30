@@ -10,6 +10,8 @@ import java.net.Socket;
 
 public class Server {
 	public static void main(String[] args) {
+		
+		int a=0;
 
 		ServerSocket serverSocket = null;
 		Socket socket = null;

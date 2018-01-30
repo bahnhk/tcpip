@@ -17,7 +17,7 @@ public abstract class Biz<O,I> {
 	}
 	public Connection getConnection() {
 		Connection conn = null;
-		String url = "jdbc:oracle:thin:@localhost:1521:XE";
+		String url = "jdbc:oracle:thin:@70.12.111.138:1521:XE";
 		String user = "hr";
 		String password = "hr";
 		try {

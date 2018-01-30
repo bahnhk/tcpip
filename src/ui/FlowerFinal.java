@@ -1016,7 +1016,7 @@ public class FlowerFinal implements ActionListener {
 						cal.add(Calendar.DATE, 5);
 						String today = sdformat.format(cal.getTime());
 
-						JOptionPane.showMessageDialog(null, "꽃 이름: " + name+"\n시드는 속도가 빠른 꽃이에요\n"
+						JOptionPane.showMessageDialog(null, "꽃 이름: " + name+"\n시드는 속도가 보통인 꽃이에요\n"
 								+today + "에 줄기를 자르세요.");
 
 					}
@@ -1028,7 +1028,7 @@ public class FlowerFinal implements ActionListener {
 						cal.add(Calendar.DATE, 7);
 						String today = sdformat.format(cal.getTime());
 
-						JOptionPane.showMessageDialog(null, "꽃 이름: " + name+"\n시드는 속도가 빠른 꽃이에요\n"
+						JOptionPane.showMessageDialog(null, "꽃 이름: " + name+"\n시드는 속도가 느린 꽃이에요\n"
 								+today + "에 줄기를 자르세요.");
 
 					}

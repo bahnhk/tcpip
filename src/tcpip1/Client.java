@@ -24,7 +24,7 @@ public class Client {
 			
 			 ousw= new OutputStreamWriter(outs);
 			//outputStream은 1바이트씩 전송되나 라이터는 2바이트씩!
-			ousw.write("깔깔");
+			ousw.write("주스사먹자..");
 			System.out.println("Send Completed...");
 			
 
